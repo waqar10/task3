@@ -1,0 +1,244 @@
+html{
+    position: relative;
+}
+body{
+    position: relative;
+    margin: 0;
+}
+#section{
+    position: relative;
+    margin: 0;
+}
+
+#section .sidebar{
+    position: fixed;
+    margin: 0;
+    color: #ffffff;
+    background-color: #d9230e;
+    width: 10.55%;
+    height: 100vh;
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-block;
+}
+
+#section .sidebar .logo{
+    position: relative;
+    margin: 0.5rem 0 0 2.3rem;
+}
+#section .sidebar .logo > img{
+    height: 4rem;
+    width: 4rem;
+}
+#section .sidebar .contents{
+    position: relative;
+    /* margin: 0 0 0 -1rem; */
+    text-align: center;
+
+}
+#section .sidebar .contents > ul{
+    position: relative;
+    display: inline-block;
+    margin: 0;
+    text-align: center;
+    padding: 0;
+}
+#section .sidebar .contents > ul > li{
+    position: relative;
+    display: block;
+    text-decoration: none;
+    line-height: 4rem;
+    font-size: 1rem;
+}
+#section .sidebar .contents > ul > li:hover{
+    color: #ffffff;
+    font-weight: 900;
+    font-size: 1.2rem;
+}
+#section .sidebar .contents .side-btn{
+    /* margin-left: 2.6rem; */
+    text-align: center;
+    line-height: 3.6rem;
+}
+#section .sidebar .contents .side-btn .btn{
+    background-color: #c51a08;
+    border: 1px solid;
+    color: #ffffff;
+    border-radius: 4%;
+    text-align: center;
+    border-color: #c51a08;
+    width: 5rem;
+    height: 2rem;
+}
+/* #section .sidebar .contents .side-btn .btn-primary{
+    background-color: #255a28;
+    color: #ffffff;*/
+#section .sidebar .contents .side-btn .btn:hover{
+    background-color: #ffffff;
+    color: #c51a08;
+    font-weight: 900;
+    width: 6rem;
+    height: 2.5rem;
+}
+#section .sidebar .contents .side-search{
+    position: relative;
+    margin: 0;
+    line-height: 2.5rem;
+    display: inline-block;
+}
+#section .sidebar .contents .side-search > input{
+    margin: 0;
+    text-align: center;
+    width: 6rem;
+    height: 1.2rem;
+    border: 4%;
+}
+
+
+#section .slider{
+    position: relative;
+    margin: 0 0 0 0rem;
+    display: inline-block;
+    width: 89.45%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    opacity: 0.9;
+    background-image: url('../img/img5.jpg');
+
+}
+#section .slider .slider-wrapper{
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    width: 100%;
+    color: #ffffff;
+}
+#section .slider .slider-wrapper .slider-heading{
+    display: inline-block;
+    width: 45%;
+    margin-top: 8rem;
+}
+#section .slider .slider-wrapper .slider-heading > h2{
+    display: inline-block;
+    width: 100%;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+#section .slider .slider-wrapper .slider-para{
+    display: inline-block;
+    width: 60%;
+}
+#section .slider .slider-wrapper .slider-para > p{
+    display: inline-block;
+    width: 100%;
+    font-size: 1.3rem;
+    font-family: sans-serif;
+    line-height: 3rem;
+}
+#section .slider .slider-wrapper .slider-btn{
+    margin: 0;
+    text-align: center;
+    line-height: 14rem;
+    width: 80%;
+    display: inline-block;
+}
+#section .slider .slider-wrapper .slider-btn .btn{
+    background-color: #4c4040;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+}
+#section .slider .slider-wrapper .slider-btn .btn:hover{
+    background-color: #ffffff;
+    color: #4c4040;
+    border: 2px solid #4c4040;
+    font-weight: 900;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1rem;
+}
+#section .buttons{
+    position: relative;
+    margin: 0;
+    display: inline-block;
+    width: 89.45%;
+    height: 100vh;
+    float: right;
+    text-align: center;
+    background-image: url('../img/img6.jpg');
+}
+#section .buttons .buttons-wrapper{
+    position: relative;
+    display: inline-block;
+}
+#section .buttons .buttons-wrapper .buttons-heading{
+    display: inline-block;
+    width: 45%;
+}
+#section .buttons .buttons-wrapper .buttons-heading > h2{
+    display: inline-block;
+    width: 100%;
+    font-size: 2.7rem;
+    font-family: sans-serif;
+    font-weight: 600;
+    margin-bottom: 0;
+    color: #ffffff;
+    line-height: 14rem;
+}
+#section .buttons .buttons-wrapper .buttons-btn{
+    margin: 0;
+    text-align: center;
+    line-height: 4rem;
+    width: 80%;
+    display: inline-block;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn{
+    background-color: #4c4040;
+    border: 2px solid #ffffff;
+    color: #ffffff;
+    border-radius: 5%;
+    text-transform: uppercase;
+    text-align: center;
+    width: 8rem;
+    height: 3rem;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn:hover{
+    background-color: #ffffff;
+    color: #4c4040;
+    border: 2px solid #4c4040;
+    font-weight: 900;
+    width: 10rem;
+    height: 4rem;
+    font-size: 1rem;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn-primary{
+    background-color: #28812a;
+    color: #ffffff;
+    border: 2px solid #216623;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn-primary:hover{
+    background-color: #ffffff;
+    color: #216623;
+    border: 2px solid #28812a;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn-secondary{
+    background-color: #ffffff;
+    color: #000000;
+    border: 2px solid #352e2e;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn-danger{
+    background-color: #e00c0c;
+    color: #ffffff;
+    border: 2px solid #b50505;
+}
+#section .buttons .buttons-wrapper .buttons-btn .btn-danger:hover{
+    background-color: #ffffff;
+    color: #b50505;
+    border: 2px solid #e00c0c;
+}
